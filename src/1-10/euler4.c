@@ -19,8 +19,7 @@ main()
 	}
     }
   return 1;
-}
-	  
+}	  
 
 int
 palindrome (int number)
