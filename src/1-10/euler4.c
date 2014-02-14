@@ -3,7 +3,7 @@
 int palindrome (int);
 
 int
-main()
+main ()
 {
   int i;
   int j;
@@ -13,7 +13,7 @@ main()
 	{
 	  if (palindrome(i * j))
 	    {
-	    printf("answer: %d\n", i * j);
+	    printf ("answer: %d\n", i * j);
 	    return 0;
 	    }
 	}
