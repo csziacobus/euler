@@ -1,0 +1,5 @@
+(let ((count 0))
+  (dotimes (i 1000)
+    (when (or (= (mod i 3) 0) (= (mod i 5) 0))
+      (incf count i)))
+  count)
